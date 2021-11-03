@@ -78,19 +78,19 @@ function setup()
   engine = Engine.create();
   world = engine.world;
 
-  //btn 1
+  //botão 1
   button = createImg('cut_btn.png');
   button.position(20,30);
   button.size(50,50);
   button.mouseClicked(drop);
 
-   //btn 2
+   //botão 2
    button2 = createImg('cut_btn.png');
    button2.position(330,35);
    button2.size(60,60);
    button2.mouseClicked(drop2);
  
-   //btn3
+   //botão 3
    button3 = createImg('cut_btn.png');
    button3.position(360,200);
    button3.size(60,60);
